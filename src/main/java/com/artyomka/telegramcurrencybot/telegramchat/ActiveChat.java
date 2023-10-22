@@ -9,7 +9,7 @@ import lombok.Data;
 public class ActiveChat {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; //Уникальный идентификатор в системе нашего бота
 
     @Column(name = "CHAT_ID")

@@ -15,7 +15,7 @@ public class ValuteCursOnDate {
     private String name;
     @XmlElement(name = "Vnom")
     private int nominal;
-    @XmlElement(name = "VCurs")
+    @XmlElement(name = "Vcurs")
     private double course;
     @XmlElement(name = "Vcode")
     private String code;
