@@ -1,6 +1,5 @@
 package com.artyomka.telegramcurrencybot.dt;
 
-import com.artyomka.telegramcurrencybot.dto.ValuteCursOnDate;
 import lombok.Data;
 
 import javax.xml.bind.annotation.*;

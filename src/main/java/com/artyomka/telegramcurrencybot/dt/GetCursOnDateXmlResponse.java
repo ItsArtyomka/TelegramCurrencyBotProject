@@ -1,4 +1,4 @@
-package com.artyomka.telegramcurrencybot.dto;
+package com.artyomka.telegramcurrencybot.dt;
 
 import com.artyomka.telegramcurrencybot.dt.GetCursOnDateXmlResult;
 import lombok.Data;

@@ -1,9 +1,10 @@
-package com.artyomka.telegramcurrencybot;
+package com.artyomka.telegramcurrencybot.config;
 
+import com.artyomka.telegramcurrencybot.service.CentralRussianBankService;
 import com.artyomka.telegramcurrencybot.dt.GetCursOnDateXml;
 import com.artyomka.telegramcurrencybot.dt.GetCursOnDateXmlResult;
-import com.artyomka.telegramcurrencybot.dto.GetCursOnDateXmlResponse;
-import com.artyomka.telegramcurrencybot.dto.ValuteCursOnDate;
+import com.artyomka.telegramcurrencybot.dt.GetCursOnDateXmlResponse;
+import com.artyomka.telegramcurrencybot.dt.ValuteCursOnDate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;

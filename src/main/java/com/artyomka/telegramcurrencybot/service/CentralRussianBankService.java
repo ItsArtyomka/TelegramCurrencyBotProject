@@ -1,8 +1,8 @@
-package com.artyomka.telegramcurrencybot;
+package com.artyomka.telegramcurrencybot.service;
 
 import com.artyomka.telegramcurrencybot.dt.GetCursOnDateXml;
-import com.artyomka.telegramcurrencybot.dto.GetCursOnDateXmlResponse;
-import com.artyomka.telegramcurrencybot.dto.ValuteCursOnDate;
+import com.artyomka.telegramcurrencybot.dt.GetCursOnDateXmlResponse;
+import com.artyomka.telegramcurrencybot.dt.ValuteCursOnDate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ws.client.core.WebServiceTemplate;
 
